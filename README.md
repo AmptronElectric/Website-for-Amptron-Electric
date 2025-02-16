@@ -55,3 +55,6 @@ export default tseslint.config({
 
 ## Run ESLint
 ``` npx eslint src --fix ```
+
+## To build a project for deployment
+``` npm run build ```
