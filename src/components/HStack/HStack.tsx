@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./HStack.module.scss";
+import styles from "./Hstack.module.scss";
 
 interface HStackProps {
   spacing?: number; // Space between columns in pixels
