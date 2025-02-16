@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #F5F5F5;
+  --background-color: #424242;
+  --header-glow: rgba(255, 255, 255, 0.7);
+  --light-text: #F5F5F5;
+  --dark-text: #424242;
+  --secondary-btn: #F5F5F5;
+  --appointment-banner-bg: #F5F5F5;
+  
+  --banner-text-color: #F5F5F5;
+  --border-radius: 3px;
+  --orange-btn: #48CFCB;
+  --orange-btn-text-color: #F5F5F5;
+  --orange-btn-hover: #229799;
+}
+
+.dark-mode {
+  --primary-color: #424242;
+  --background-color: #F5F5F5;
+  --header-glow: rgba(0, 0, 0, 0.3);
+  --light-text: #424242;
+  --dark-text: #F5F5F5;
+  --secondary-btn: #424242;
+  --appointment-banner-bg: #424242;
+}

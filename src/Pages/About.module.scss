@@ -1,0 +1,19 @@
+.aboutBtnContainer {
+  flex-direction: row;
+}
+.aboutImg {
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 501px) {
+  .aboutBtnContainer {
+    flex-direction: column;
+  }
+  .aboutBtnContainer button {
+    width: 100% !important;
+  }
+  .btn {
+    margin-top: -12px;
+  }
+}

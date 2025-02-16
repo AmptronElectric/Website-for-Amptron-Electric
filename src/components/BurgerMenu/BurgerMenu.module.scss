@@ -1,0 +1,57 @@
+.burgerMenu {
+  display: none;
+
+  @media (max-width: 800px) {
+    display: block;
+  }
+  
+  @media (max-width: 700px) {
+    margin-left: auto;
+  }
+}
+
+.burgerButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1); // Slight zoom effect on hover
+  }
+}
+
+.menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: var(--background-color);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 1000;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.menuLink {
+  font-size: 18px;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--primary-color);
+    color: var(--dark-text);
+  }
+}
+

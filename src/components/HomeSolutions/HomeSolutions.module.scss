@@ -1,0 +1,25 @@
+.industries {
+  width: 70%;
+  color: var(--light-text);
+  font-size: 18px;
+}
+@media (max-width: 1200px) {
+  .homeSolutionsBtnContainer {
+    flex-direction: row !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    margin-top: 280px !important;
+  }
+}
+
+@media (max-width: 601px) {
+  .wrapper {
+    margin-top: 220px !important;
+  }
+  .homeSolutionsBtnContainer {
+    flex-direction: column !important;
+  }
+}

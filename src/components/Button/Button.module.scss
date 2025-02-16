@@ -1,0 +1,31 @@
+.button {
+  padding: 10px 20px;
+  margin-left: auto;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.primary {
+  background-color: var(--orange-btn);
+  color: var(--orange-btn-text-color);
+
+  &:hover {
+    background-color: var(--orange-btn-hover);
+  }
+}
+
+.secondary {
+  background-color: var(--secondary-btn);
+  color: var(--dark-text);
+
+  &:hover {
+    background-color: var(--orange-btn-hover);
+    color: var(--orange-btn-text-color);
+  }
+}

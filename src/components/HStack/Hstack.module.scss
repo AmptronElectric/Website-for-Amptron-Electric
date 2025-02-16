@@ -1,0 +1,38 @@
+.hStack {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.hStack > * {
+  flex: 1;
+  max-width: 50%;
+}
+
+@media (max-width: 1200px) {
+  .hStack {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .hStack > * {
+    flex: 1;
+    max-width: 100%;
+  }
+}
+
+.inlineHStack {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  width: auto; // Allow inline content
+}
+
+.inlineHStack > * {
+  flex: none;
+  max-width: none;
+}

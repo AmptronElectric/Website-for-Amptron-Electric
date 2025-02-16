@@ -1,0 +1,24 @@
+.list {
+  list-style: none; /* Remove default bullets */
+  padding: 0;
+  padding-left: 40px;
+  margin: 0;
+  cursor: default;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem {
+  display: flex;
+  align-items: flex-start; /* Align text with the icon */
+  margin-bottom: 0.5rem; /* Space between items */
+  font-size: 1.1rem;
+  color: var(--light-text);
+}
+
+.icon {
+  color: var(--orange-btn);
+  margin-right: 0.5rem; /* Space between icon and text */
+  font-size: 1.2rem; /* Adjust icon size */
+}

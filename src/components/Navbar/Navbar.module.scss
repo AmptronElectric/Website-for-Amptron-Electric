@@ -1,0 +1,111 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 1rem;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  box-shadow: 0px 5px 10px var(--header-glow);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 250px; // Adjust size as needed
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.logo:hover img {
+  transform: scale(1.05); // Slight zoom on hover
+}
+
+.nav {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+  margin-right: 20px;
+
+  @media (max-width: 800px) {
+    display: none; // Hide navigation links on smaller screens
+  }
+}
+
+.nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  position: relative;
+  transition: 0.5s ease;
+}
+
+/* Smooth underline animation */
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: width 0.4s ease-in-out;
+}
+
+/* Show underline on hover, but NOT if already active */
+.nav a:not(.activeLink):hover::after {
+  width: 100%;
+}
+
+/* Underline appears when hovering */
+.nav a:hover::after {
+  width: 100%;
+}
+
+/* Persistent underline for the active link */
+.nav .activeLink {
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.activeLink::after {
+  width: 100%; // Ensure the underline stays on the active link
+}
+
+/* Prevent active links from getting an extra underline on hover */
+.nav .activeLink::after {
+  display: none;
+}
+
+.contactButton {
+  display: block;
+  width: 150px;
+
+  @media (max-width: 800px) {
+    margin-left: auto;
+  }
+
+  @media (max-width: 700px) {
+    display: none;
+  }
+}
+
+.btn {
+  display: block;
+}
+
+.btn button {
+  padding: 30px 0;
+}

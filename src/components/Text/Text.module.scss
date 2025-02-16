@@ -1,0 +1,69 @@
+.text {
+  font-family: inherit;
+  margin: 0;
+  cursor: default;
+}
+
+.small {
+  font-size: 16px;
+}
+
+.medium {
+  font-size: 18px;
+}
+
+.large {
+  font-size: 20px;
+}
+
+.xlarge {
+  font-size: 24px;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.primary {
+  color: var(--primary-color);
+}
+
+.secondary {
+  color: var(--secondary-color);
+}
+
+.muted {
+  color: gray;
+}
+
+.warning {
+  color: orange;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}

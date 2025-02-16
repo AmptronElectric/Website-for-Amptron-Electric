@@ -1,0 +1,16 @@
+.link {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .servicesBtnContainer {
+    flex-direction: row !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .servicesBtnContainer {
+    flex-direction: column !important;
+  }
+}

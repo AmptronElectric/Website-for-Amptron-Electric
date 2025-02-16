@@ -1,0 +1,97 @@
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  height: 700px;
+  background-image: url("../../assets/img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 100px;
+  padding: 60px;
+
+  @media (max-width: 1024px) {
+    padding: 60px;
+  }
+  @media (max-width: 600px) {
+    padding: 20px;
+  }
+}
+
+.textContainer {
+  flex: 0 0 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--banner-text-color);
+
+  .welcomeTitle {
+    color: var(--banner-text-color);
+  }
+
+  .title {
+    font-size: 58px;
+    text-align: start;
+    color: var(--banner-text-color);
+  }
+
+  p {
+    margin-bottom: 30px;
+    color: var(--banner-text-color);
+  }
+
+  .bookNow {
+    margin-left: 0;
+  }
+
+  @media (max-width: 1250px) {
+    flex: 0 0 50%;
+  }
+
+  @media (max-width: 1024px) {
+    flex: 0 0 100%;
+  }
+
+  @media (max-width: 550px) {
+    .title {
+      font-size: 48px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .title {
+      font-size: 42px;
+    }
+  }
+}
+
+.videoContainer {
+  flex: 0 0 60%;
+  position: relative;
+  padding: 0;
+
+  @media (max-width: 1250px) {
+    flex: 0 0 50%;
+  }
+
+  @media (max-width: 1024px) {
+    flex: 0 0 100%;
+  }
+}
+
+.video {
+  z-index: 500;
+  width: 100%;
+  height: calc(100% + 120px);
+  object-fit: cover;
+  position: absolute;
+
+  @media (max-width: 1024px) {
+    height: calc(100% + 300px);
+  }
+
+  @media (max-width: 600px) {
+    height: calc(100% + 200px);
+  }
+}

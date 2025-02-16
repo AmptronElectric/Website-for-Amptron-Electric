@@ -1,0 +1,6 @@
+.image {
+  display: block;
+  width: 100%; // Full width
+  height: auto; // Maintain aspect ratio
+  object-fit: cover; // Ensures the image is perfectly centered
+}
