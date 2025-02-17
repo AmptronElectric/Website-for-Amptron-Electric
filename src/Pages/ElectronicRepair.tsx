@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { FaBolt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import Button from "../components/Button/Button";
 import ContainerWrapper from "../components/ContainerWrapper/ContainerWrapper";
@@ -11,7 +11,7 @@ import Text from "../components/Text/Text";
 import Title from "../components/Title/Title";
 import VStack from "../components/VStack/VStack";
 
-import electronicRepairImg from "../assets/img/electronicRepair.jpg";
+import electricalRepairImg from "../assets/img/electricalRepair.webp";
 
 import styles from "./Services.module.scss";
 
@@ -29,7 +29,7 @@ const ElectronicRepair: React.FC = () => {
     <ContainerWrapper>
       <HStack spacing={30} align="center" justify="center">
         <ResponsiveImage
-          src={electronicRepairImg}
+          src={electricalRepairImg}
           alt="Electrician testing circuits and fixing electrical issues in factory setting"
         />
         <VStack align="center">

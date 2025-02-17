@@ -5,7 +5,7 @@ import Title from "../Title/Title";
 import Card from "../Card/Card";
 
 import equipmentInstallation from "../../assets/img/equipInstal.jpg";
-import electronicRepair from "../../assets/img/electronicRepair.jpg";
+import electricalRepair from "../../assets/img/electricalRepair.webp";
 import systemIntegration from "../../assets/img/systemIntegration.jpg";
 import postSupport from "../../assets/img/postSupport.jpg";
 import commissioning from "../../assets/img/commissioning.webp";
@@ -36,7 +36,7 @@ const Services: React.FC = () => {
 
           <Link to="/electrical-repair" className={styles.cardLink}>
             <Card
-              imageSrc={electronicRepair}
+              imageSrc={electricalRepair}
               title="Electrical Repair"
               altText="Electronic repair and maintenance for industrial systems"
               items={[
