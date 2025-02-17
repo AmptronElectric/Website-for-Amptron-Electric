@@ -28,7 +28,10 @@ const PostInstallationSupport: React.FC = () => {
   return (
     <ContainerWrapper>
       <HStack spacing={30} align="center" justify="center">
-        <ResponsiveImage src={postSupportImg} alt="Post-Installation Support" />
+        <ResponsiveImage
+          src={postSupportImg}
+          alt="Technician performing post-installation support and system checks on industrial electrical equipment"
+        />
         <VStack align="center">
           <Title size="h1" text="Post-Installation Support" />
           <Text size="medium" align="center">

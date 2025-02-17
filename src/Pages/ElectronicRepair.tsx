@@ -28,7 +28,10 @@ const ElectronicRepair: React.FC = () => {
   return (
     <ContainerWrapper>
       <HStack spacing={30} align="center" justify="center">
-        <ResponsiveImage src={electronicRepairImg} alt="Electronic Repair" />
+        <ResponsiveImage
+          src={electronicRepairImg}
+          alt="Electrician testing circuits and fixing electrical issues in factory setting"
+        />
         <VStack align="center">
           <Title size="h1" text="Expert Electronic Repair" />
           <Text size="medium" align="center">

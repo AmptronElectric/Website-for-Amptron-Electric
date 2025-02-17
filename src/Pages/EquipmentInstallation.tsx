@@ -30,7 +30,7 @@ const EquipmentInstallation: React.FC = () => {
       <HStack spacing={30} align="center" justify="center">
         <ResponsiveImage
           src={equipmentInstallationImg}
-          alt="Equipment Installation"
+          alt="Electrician installing industrial equipment and setting up power supply in commercial facility"
         />
         <VStack align="center">
           <Title size="h1" text="Expert Equipment Installation Services" />

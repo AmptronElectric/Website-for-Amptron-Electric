@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
       <HStack spacing={30} align="center" justify="center">
         <ResponsiveImage
           src={about}
-          alt="Switchgear"
+          alt="Electrician diagnosing and repairing electrical fault in industrial control panel"
           className={styles.aboutImg}
         />
         <VStack align="center">

@@ -26,7 +26,7 @@ const Commissioning: React.FC = () => {
   return (
     <ContainerWrapper>
       <HStack spacing={30} align="center" justify="center">
-        <ResponsiveImage src={commissioningImg} alt="Commissioning" />
+        <ResponsiveImage src={commissioningImg} alt="Industrial power system commissioning and performance testing" />
         <VStack align="center">
           <Title size="h1" text="Ensuring Your Systems Are Ready to Perform" />
           <Text size="medium" align="center">

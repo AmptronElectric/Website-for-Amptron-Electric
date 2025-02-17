@@ -26,7 +26,10 @@ const SystemIntegration: React.FC = () => {
   return (
     <ContainerWrapper>
       <HStack spacing={30} align="center" justify="center">
-        <ResponsiveImage src={systemIntegrationImg} alt="System Integration" />
+        <ResponsiveImage
+          src={systemIntegrationImg}
+          alt="Control panel wiring and PLC integration for commercial electrical systems"
+        />
         <VStack align="center">
           <Title size="h1" text="System Integration" />
           <Text size="medium" align="center">
