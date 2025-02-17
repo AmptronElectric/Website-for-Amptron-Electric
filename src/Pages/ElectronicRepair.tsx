@@ -36,7 +36,7 @@ const ElectronicRepair: React.FC = () => {
           <Title size="h1" text="Expert Electrical Repair" />
           <Text size="medium" align="center">
             {
-              "At Amptron Electric, we understand that in the fast-paced world of commercial and industrial operations, any downtime due to electronic failures can lead to significant disruptions and financial losses. That's why we're proud to offer a comprehensive range of electronic repair services tailored specifically for the unique demands of businesses."
+              "At Amptron Electric, we understand that in the fast-paced world of commercial and industrial operations, electrical failures can cause costly downtime and disrupt productivity. That's why we offer a comprehensive range of electrical repair services designed to meet the unique demands of businesses."
             }
           </Text>
           <List listItems={items} icon={FaBolt} />
@@ -65,17 +65,17 @@ const ElectronicRepair: React.FC = () => {
       >
         <Title
           size="h1"
-          text="Why Choose Amptron Electric for Electronic Repair?"
+          text="Why Choose Amptron Electric for Electrical Repair?"
         ></Title>
         <Text size="medium" align="center">
           {
-            "Amptron Electric is committed to the highest standards of safety and compliance. Our repairs adhere to industry regulations, ensuring the safety of your personnel and the longevity of your electronic systems. We understand that every commercial or industrial setup is unique. Our team works closely with clients to provide customized electronic repair solutions that meet their specific needs and challenges."
+            "At Amptron Electric, we are committed to maintaining the highest standards of safety, reliability, and compliance. Our electrical repair services align with industry regulations, ensuring the safety of your personnel and the optimal performance of your systems. We understand that every commercial and industrial operation is unique. That's why our experienced team works closely with you to deliver tailored repair solutions that address your specific electrical challenges."
           }
         </Text>
 
         <Text size="medium" align="center">
           {
-            "Don't let electronic failures hinder your business operations. Contact Amptron Electric today for reliable, efficient, and specialized electronic repair services. We are dedicated to keeping your commercial and industrial systems at peak performance, ensuring your business stays powered for success."
+            "Don't let electrical issues disrupt your business operations.Contact Amptron Electric today for prompt, professional, and reliable electrical repair services. We are dedicated to keeping your systems running smoothly, ensuring your business stays powered for success."
           }
         </Text>
       </VStack>
