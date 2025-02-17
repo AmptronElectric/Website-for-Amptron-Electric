@@ -10,7 +10,10 @@ const AppointmentBanner: React.FC = () => {
           <p>Schedule your 30 minutes Electrician Appointment now</p>
         </a>
         <div className={styles.scheduleContainerImg}>
-          <img src={appointmentBannerIng} alt="Schedule Appointment" />
+          <img
+            src={appointmentBannerIng}
+            alt="Industrial automation system with integrated electrical controls and monitoring"
+          />
         </div>
       </div>
     </section>

@@ -22,7 +22,7 @@ const Services: React.FC = () => {
             <Card
               imageSrc={equipmentInstallation}
               title="Equipment Installation"
-              altText="Equipment Installation"
+              altText="Industrial electrical panel upgrade in Metro Vancouver factory. Electrical equipment installation."
               items={[
                 "Small to large-scale installation of electrical equipment and systems",
                 "EV Charger Installation",
@@ -39,7 +39,7 @@ const Services: React.FC = () => {
             <Card
               imageSrc={electronicRepair}
               title="Electronic Repair"
-              altText="Electronic Repair"
+              altText="Electronic repair and maintenance for industrial systems"
               items={[
                 "Diagnostic Services",
                 "Fault Isolation",
@@ -54,7 +54,7 @@ const Services: React.FC = () => {
             <Card
               imageSrc={systemIntegration}
               title="System Integration"
-              altText="System Integration"
+              altText="Industrial electrical control panel with PLC system integration for automated manufacturing"
               items={[
                 "Design and Implementation of Automation Systems",
                 "Integration of Sensors and Instruments",
@@ -69,7 +69,7 @@ const Services: React.FC = () => {
             <Card
               imageSrc={postSupport}
               title="Post-Installation Support"
-              altText="Post-Installation Support"
+              altText="Electrician performing post-installation support and electrical system diagnostics in a commercial facility"
               items={[
                 "Ongoing support for any issues that may arise after installation",
                 "Troubleshooting assistance",
@@ -84,7 +84,7 @@ const Services: React.FC = () => {
             <Card
               imageSrc={commissioning}
               title="Commissioning"
-              altText="Commissioning"
+              altText="Industrial electrician performing commissioning and system verification on electrical control panel"
               items={[
                 "Deficiency testing",
                 "Reliability testing",

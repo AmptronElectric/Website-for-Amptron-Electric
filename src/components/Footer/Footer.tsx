@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
         <div className={styles.logoSection}>
           <img
             src={isDarkMode ? logoDark : logoLight}
-            alt="Amptron Electric Logo"
+            alt="Commercial Electrician in Metro Vancouver"
             className={styles.logo}
           />
           <p>Your trusted electrical services provider</p>

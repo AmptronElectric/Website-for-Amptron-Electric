@@ -103,7 +103,7 @@ const Contact: React.FC = () => {
           </Text>
           <Text>{"We look forward to working with you!"}</Text>
           <div className={styles.contactImg}>
-            <img src={isDarkMode ? darkImg : lightImg} alt="Box" />
+            <img src={isDarkMode ? darkImg : lightImg} alt="Industrial Electrician in Metro Vancouver" />
           </div>
         </div>
         <div className={styles.contactFormContainer}>

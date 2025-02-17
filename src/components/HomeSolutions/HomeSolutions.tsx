@@ -21,7 +21,7 @@ const HomeSolutions: React.FC = () => {
       <HStack spacing={30} align="center" justify="center">
         <ResponsiveImage
           src={main1}
-          alt="Switchgear"
+          alt="Licensed Commercial Electrician. Reliable Industrial Electrician. Electrical Installation Services"
           className={styles.homeSolutionsImg}
         />
         <VStack align="center">
@@ -43,23 +43,25 @@ const HomeSolutions: React.FC = () => {
             <i>
               <strong>Industrial: </strong>
             </i>
-            Supporting manufacturing plants, automation systems, and process facilities with advanced electrical solutions.
+            Supporting manufacturing plants, automation systems, and process
+            facilities with advanced electrical solutions.
           </p>
           <p className={styles.industries}>
             <i>
               <strong>Commercial: </strong>
             </i>
-            Delivering reliable electrical services for offices, retail spaces, and warehouses to ensure smooth operations.
+            Delivering reliable electrical services for offices, retail spaces,
+            and warehouses to ensure smooth operations.
           </p>
           <HStack spacing={20} className={styles.homeSolutionsBtnContainer}>
             <Button
-            width="100%"
+              width="100%"
               color="primary"
               text="Get in Touch"
               onClick={() => navigate("/contact")}
             />
             <Button
-            width="100%"
+              width="100%"
               color="secondary"
               text="Explore Our Services"
               onClick={() => navigate("/services")}

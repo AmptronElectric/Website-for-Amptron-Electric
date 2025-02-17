@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
       <NavLink to="/" className={styles.logo}>
         <img
           src={isDarkMode ? logoDark : logoLight}
-          alt="Amptron Electric Logo"
+          alt="Electrical Services in Burnaby, Coquitlam, Surrey, Richmond, Langley, Vancouver"
         />
       </NavLink>
 
