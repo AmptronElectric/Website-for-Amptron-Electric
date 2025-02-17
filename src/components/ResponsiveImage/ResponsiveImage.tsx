@@ -8,7 +8,7 @@ interface ResponsiveImageProps {
 }
 
 const ResponsiveImage: React.FC<ResponsiveImageProps> = ({ src, alt, className = "" }) => {
-  return <img src={src} alt={alt} className={`${styles.image} ${className}`} />;
+  return <img src={src} alt={alt} loading="lazy" className={`${styles.image} ${className}`} />;
 };
 
 export default ResponsiveImage;
