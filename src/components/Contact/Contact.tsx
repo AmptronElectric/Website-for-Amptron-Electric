@@ -30,6 +30,12 @@ const Contact: React.FC = () => {
     const firstName = formData.get("first_name")?.toString().trim();
     const phone = formData.get("phone_number")?.toString().trim();
     const message = formData.get("message")?.toString().trim();
+    const honeypot = formData.get("honeypot")?.toString().trim();
+
+    if (honeypot) {
+      console.warn("Spam bot detected. Submission blocked.");
+      return;
+    }
 
     if (!firstName || !phone || !message) {
       setPopupMessage([
@@ -147,6 +153,7 @@ const Contact: React.FC = () => {
                   type="email"
                   name="email"
                   required
+                  pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
                 />
               </div>
               <div className={styles.namesInput}>
@@ -160,6 +167,11 @@ const Contact: React.FC = () => {
                   type="tel"
                   name="phone_number"
                   required
+                  pattern="^[0-9()+\- ]+$"
+                  maxLength={20}
+                  onInput={(e) => {
+                    e.currentTarget.value = e.currentTarget.value.replace(/[^0-9()+\- ]/g, "");
+                  }}
                 />
               </div>
             </div>
@@ -191,9 +203,11 @@ const Contact: React.FC = () => {
                 className={styles.contactFormBtn}
                 type="submit"
                 value="Submit"
-                // onClick={"sendEmail()"}
+                aria-label="Submit Contact Form"
               />
             </div>
+            {/* Honeypot */}
+            <input type="text" name="honeypot" style={{ display: "none" }} />
           </form>
         </div>
       </div>
