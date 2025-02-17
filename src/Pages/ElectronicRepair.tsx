@@ -17,13 +17,13 @@ import styles from "./Services.module.scss";
 
 const ElectronicRepair: React.FC = () => {
   const items = [
-    "Motor drive repairs and optimization",
-    "Circuit breaker and switchgear repairs",
-    "Transformer diagnostics and repair",
-    "Power quality analysis and solutions",
-    "Sensor and control system optimizations",
-    "SCADA system diagnostics",
-    "Automated production line troubleshooting",
+    "Electrical Repair & Maintenance",
+    "Troubleshooting & Diagnostics",
+    "Motor & Variable Frequency Drives (VFD) Repairs",
+    "Electrical Testing & Fault Isolation",
+    "Industrial Panel Repairs",
+    "Control System Repairs",
+    "Lighting System Repairs",
   ];
   return (
     <ContainerWrapper>
@@ -33,7 +33,7 @@ const ElectronicRepair: React.FC = () => {
           alt="Electrician testing circuits and fixing electrical issues in factory setting"
         />
         <VStack align="center">
-          <Title size="h1" text="Expert Electronic Repair" />
+          <Title size="h1" text="Expert Electrical Repair" />
           <Text size="medium" align="center">
             {
               "At Amptron Electric, we understand that in the fast-paced world of commercial and industrial operations, any downtime due to electronic failures can lead to significant disruptions and financial losses. That's why we're proud to offer a comprehensive range of electronic repair services tailored specifically for the unique demands of businesses."

@@ -12,10 +12,10 @@ const Banner: React.FC = () => {
   return (
     <div className={styles.banner}>
       <div className={styles.textContainer}>
-        <Title text="WELCOME TO" size="h2" className={styles.welcomeTitle} />
         <Title text="Amptron Electric" className={styles.title} />
-        <Text size="medium">
-          {"Locally owned electrical service and repair"}
+        <Title text="Commercial & Industrial Electrical Repair, Installation, and Integration Services" size="h2" className={styles.welcomeTitle} />
+        <Text size="xlarge">
+          {"Based in Port Coquitlam - Serving the Lower Mainland"}
         </Text>
         <a href="https://calendly.com/amptronelectricbc/30min" target="_blank">
           <Button text="BOOK NOW" width="200px" className={styles.bookNow} />

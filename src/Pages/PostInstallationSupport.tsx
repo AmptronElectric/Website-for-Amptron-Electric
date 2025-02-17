@@ -17,6 +17,7 @@ import styles from "./Services.module.scss";
 
 const PostInstallationSupport: React.FC = () => {
   const items = [
+    "Ongoing support for any issues that may arise after installation",
     "Troubleshooting Assistance",
     "Preventive Maintenance",
     "Monitoring and Diagnostics",
@@ -24,6 +25,7 @@ const PostInstallationSupport: React.FC = () => {
     "Regular Maintenance Programs",
     "Performance Optimization",
     "Comprehensive System Checks",
+    "Software Updates",
   ];
   return (
     <ContainerWrapper>

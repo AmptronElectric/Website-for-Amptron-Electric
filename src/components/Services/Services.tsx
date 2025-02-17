@@ -24,29 +24,31 @@ const Services: React.FC = () => {
               title="Equipment Installation"
               altText="Industrial electrical panel upgrade in Metro Vancouver factory. Electrical equipment installation."
               items={[
-                "Small to large-scale installation of electrical equipment and systems",
+                "Small to large-scale installation of electrical equipment",
+                "Electrical Panel Upgrades & Installation",
                 "EV Charger Installation",
-                "Light Installation ",
-                // "Control Systems Integration",
-                "Emergency Systems",
-                "Instrumentation and Motor Installation",
+                "Lighting Installation ",
+                "Motor Controls and Variable Frequency Drives (VFD) Setup",
               ]}
               ctaPath="/equpment-installation"
             />
           </Link>
 
-          <Link to="/electronic-repair" className={styles.cardLink}>
+          <Link to="/electrical-repair" className={styles.cardLink}>
             <Card
               imageSrc={electronicRepair}
-              title="Electronic Repair"
+              title="Electrical Repair"
               altText="Electronic repair and maintenance for industrial systems"
               items={[
-                "Diagnostic Services",
-                "Fault Isolation",
-                "Component-Level Repair (resistors, capacitors, integrated circuits, and more)",
-                "Power Supply and Control System Repair",
+                "Electrical Repair & Maintenance",
+                "Troubleshooting & Diagnostics",
+                "Motor & Variable Frequency Drives (VFD) Repairs",
+                "Electrical Testing & Fault Isolation",
+                "Industrial Panel Repairs",
+                "Control System Repairs",
+                "Lighting System Repairs",
               ]}
-              ctaPath="/electronic-repair"
+              ctaPath="/electrical-repair"
             />
           </Link>
 
@@ -58,8 +60,9 @@ const Services: React.FC = () => {
               items={[
                 "Design and Implementation of Automation Systems",
                 "Integration of Sensors and Instruments",
-                "PLC Programming and Integration",
-                "Data Acquisition and Communication Systems"
+                "Custom PLC Programming",
+                "Legacy System Upgrades",
+                "Machine-to-Machine Communication (M2M)",
               ]}
               ctaPath="/system-integration"
             />
@@ -72,9 +75,10 @@ const Services: React.FC = () => {
               altText="Electrician performing post-installation support and electrical system diagnostics in a commercial facility"
               items={[
                 "Ongoing support for any issues that may arise after installation",
+                "Preventative Maintenance",
                 "Troubleshooting assistance",
                 "Scheduled maintenance services to maximize the reliability of the electrical systems",
-                "Preventative Maintenance",
+                "Software Updates",
               ]}
               ctaPath="/post-installation-support"
             />
@@ -90,6 +94,7 @@ const Services: React.FC = () => {
                 "Reliability testing",
                 "Error testing",
                 "Searching for any inconsistencies between design and installation requirements with start-up and operational performance",
+                "Safety System Validation",
               ]}
               ctaPath="/commissioning"
             />

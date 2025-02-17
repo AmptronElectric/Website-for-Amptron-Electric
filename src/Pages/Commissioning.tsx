@@ -21,12 +21,17 @@ const Commissioning: React.FC = () => {
     "Testing and Validation",
     "Deficiency Identification",
     "Performance Optimization",
-    "Final Documentation",
+    "Pre-Startup Inspections",
+    "System Calibration",
+    "Automation Sequence Validation",
   ];
   return (
     <ContainerWrapper>
       <HStack spacing={30} align="center" justify="center">
-        <ResponsiveImage src={commissioningImg} alt="Industrial power system commissioning and performance testing" />
+        <ResponsiveImage
+          src={commissioningImg}
+          alt="Industrial power system commissioning and performance testing"
+        />
         <VStack align="center">
           <Title size="h1" text="Ensuring Your Systems Are Ready to Perform" />
           <Text size="medium" align="center">

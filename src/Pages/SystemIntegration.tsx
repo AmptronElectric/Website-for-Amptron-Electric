@@ -17,11 +17,17 @@ import styles from "./Services.module.scss";
 
 const SystemIntegration: React.FC = () => {
   const items = [
-    "Design Excellence",
-    "Commissioning Precision",
-    "Installation Mastery",
-    "Automation and Control Systems",
-    "Sensor Integration",
+    "HMI Development & Customization",
+    "Industrial Network Integration",
+    "Remote Monitoring Solutions",
+    "Process Control Automation",
+    "Custom PLC Programming",
+    "Legacy System Upgrades",
+    "Instrumentation Calibration & Integration",
+    "Machine-to-Machine Communication (M2M)",
+    "Variable Frequency Drive (VFD) Integration",
+    "Energy Management Systems",
+    "Safety System Integration"
   ];
   return (
     <ContainerWrapper>

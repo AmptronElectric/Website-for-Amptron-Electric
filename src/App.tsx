@@ -24,7 +24,7 @@ const App: React.FC = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/equipment-installation" element={<EquipmentInstallation />} />
-        <Route path="/electronic-repair" element={<ElectronicRepair />} />
+        <Route path="/electrical-repair" element={<ElectronicRepair />} />
         <Route path="/system-integration" element={<SystemIntegration />} />
         <Route path="/post-installation-support" element={<PostInstallationSupport />} />
         <Route path="/commissioning" element={<Commissioning />} />

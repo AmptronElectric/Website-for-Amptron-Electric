@@ -17,13 +17,17 @@ import styles from "./Services.module.scss";
 
 const EquipmentInstallation: React.FC = () => {
   const items = [
+    "Small to large-scale installation of electrical equipment",
+    "Electrical Panel Upgrades & Installation",
     "Heavy machinery power supply",
-    "Control panels",
-    "Motor installations",
-    "Transformers",
+    "Motor Controls and Variable Frequency Drives (VFD) Setup",
+    "Transformer Installation & Wiring",
     "Programmable Logic Controllers (PLCs)",
     "Generator installations",
+    "Specialized Industrial Lighting Installation",
     "Electric vehicle charging stations and more",
+    "Conveyor System Wiring & Integration",
+    "Equipment Relocation & Rewiring",
   ];
   return (
     <ContainerWrapper>
