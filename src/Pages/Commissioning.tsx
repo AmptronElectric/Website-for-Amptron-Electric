@@ -11,7 +11,7 @@ import Text from "../components/Text/Text";
 import Title from "../components/Title/Title";
 import VStack from "../components/VStack/VStack";
 
-import commissioningImg from "../assets/img/commissioning.jpg";
+import commissioningImg from "../assets/img/commissioning.webp";
 
 import styles from "./Services.module.scss";
 
