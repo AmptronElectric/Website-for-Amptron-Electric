@@ -7,6 +7,7 @@ interface ButtonProps {
   color?: "primary" | "secondary";
   width?: string;
   className?: string;
+  type?: "button" | "submit" | "reset";
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -15,12 +16,15 @@ const Button: React.FC<ButtonProps> = ({
   color = "primary",
   width = "150px",
   className = "",
+  type = "button",
 }) => {
   return (
     <button
+      type={type}
       onClick={onClick}
       className={`${styles.button} ${styles[color]} ${className}`}
       style={{ width }}
+      aria-label={text}
     >
       {text}
     </button>

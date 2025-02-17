@@ -56,10 +56,7 @@ const Contact: React.FC = () => {
           form.current?.reset();
         },
         () => {
-          setPopupMessage([
-            "Something went wrong",
-            "Please try again later",
-          ]);
+          setPopupMessage(["Something went wrong", "Please try again later"]);
         }
       );
   };
@@ -81,7 +78,11 @@ const Contact: React.FC = () => {
           </Text>
           <div className={styles.contactSection}>
             <p>
-              <a href="tel:+17789944027" className={styles.contactLink}>
+              <a
+                href="tel:+17789944027"
+                className={styles.contactLink}
+                aria-label="Call us at +1 778-994-4027"
+              >
                 Phone: +1 778-994-4027
               </a>
             </p>
@@ -89,6 +90,7 @@ const Contact: React.FC = () => {
               <a
                 href="mailto:amptronelectricbc@gmail.com"
                 className={styles.contactLink}
+                aria-label="Email us at amptronelectricbc@gmail.com"
               >
                 Email: amptronelectricbc@gmail.com
               </a>
@@ -99,11 +101,7 @@ const Contact: React.FC = () => {
               "Use the contact form to reach out, and we'll respond as soon as possible. Provide details about your project, and we'll get back to you with the information you need. For urgent inquiries, call us directly for immediate assistance."
             }
           </Text>
-          <Text>
-            {
-              "We look forward to working with you!"
-            }
-          </Text>
+          <Text>{"We look forward to working with you!"}</Text>
           <div className={styles.contactImg}>
             <img src={isDarkMode ? darkImg : lightImg} alt="Box" />
           </div>
@@ -112,11 +110,12 @@ const Contact: React.FC = () => {
           <form ref={form} onSubmit={sendEmail} className={styles.contactForm}>
             <div className={styles.names}>
               <div className={styles.namesInput}>
-                <label className={styles.formLabel}>
+                <label className={styles.formLabel} htmlFor="first_name">
                   First Name<span className={styles.required}></span>
                 </label>
                 <br />
                 <input
+                  id="first_name"
                   className={styles.formControl}
                   type="text"
                   name="first_name"
@@ -124,11 +123,12 @@ const Contact: React.FC = () => {
                 />
               </div>
               <div className={styles.namesInput}>
-                <label className={styles.formLabel}>
+                <label className={styles.formLabel} htmlFor="last_name">
                   Last Name
                 </label>
                 <br />
                 <input
+                  id="last_name"
                   className={styles.formControl}
                   type="text"
                   name="last_name"
@@ -137,9 +137,12 @@ const Contact: React.FC = () => {
             </div>
             <div className={styles.names}>
               <div className={styles.namesInput}>
-                <label className={styles.formLabel}>Email<span className={styles.required}></span></label>
+                <label className={styles.formLabel} htmlFor="email">
+                  Email<span className={styles.required}></span>
+                </label>
                 <br />
                 <input
+                  id="email"
                   className={styles.formControl}
                   type="email"
                   name="email"
@@ -147,31 +150,37 @@ const Contact: React.FC = () => {
                 />
               </div>
               <div className={styles.namesInput}>
-                <label className={styles.formLabel}>
+                <label className={styles.formLabel} htmlFor="phone_number">
                   Phone Number<span className={styles.required}></span>
                 </label>
                 <br />
                 <input
+                  id="phone_number"
                   className={styles.formControl}
-                  type="text"
+                  type="tel"
                   name="phone_number"
                   required
                 />
               </div>
             </div>
             <div>
-              <label className={styles.formLabel}>Company</label> <br />
+              <label className={styles.formLabel} htmlFor="company">
+                Company
+              </label>{" "}
+              <br />
               <input
+                id="company"
                 className={styles.formControl}
                 type="text"
                 name="company"
               />
             </div>
             <div>
-              <label className={styles.formLabel}>
+              <label className={styles.formLabel} htmlFor="message">
                 Message<span className={styles.required}></span>
               </label>
               <textarea
+                id="message"
                 className={styles.formControl}
                 name="message"
                 cols={30}
