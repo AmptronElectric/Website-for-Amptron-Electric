@@ -1,13 +1,15 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+
+import Button from "../components/Button/Button";
 import ContainerWrapper from "../components/ContainerWrapper/ContainerWrapper";
-import Title from "../components/Title/Title";
 import HStack from "../components/HStack/HStack";
 import ResponsiveImage from "../components/ResponsiveImage/ResponsiveImage";
-import VStack from "../components/VStack/VStack";
-import about from "../assets/img/about.jpg";
 import Text from "../components/Text/Text";
-import Button from "../components/Button/Button";
+import Title from "../components/Title/Title";
+import VStack from "../components/VStack/VStack";
+
+import aboutImg from "../assets/img/about.webp";
 
 import styles from "./About.module.scss";
 
@@ -18,7 +20,7 @@ const Contact: React.FC = () => {
     <ContainerWrapper>
       <HStack spacing={30} align="center" justify="center">
         <ResponsiveImage
-          src={about}
+          src={aboutImg}
           alt="Electrician diagnosing and repairing electrical fault in industrial control panel"
           className={styles.aboutImg}
         />
@@ -61,7 +63,10 @@ const Contact: React.FC = () => {
             width="100%"
             text={"Book Electrical Appointment Now"}
             onClick={() =>
-              window.open("https://calendly.com/amptronelectricbc/30min", "_blank")
+              window.open(
+                "https://calendly.com/amptronelectricbc/30min",
+                "_blank"
+              )
             }
           />
         </VStack>
