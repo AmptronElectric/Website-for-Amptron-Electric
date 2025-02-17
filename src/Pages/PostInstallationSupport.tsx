@@ -11,7 +11,7 @@ import Text from "../components/Text/Text";
 import Title from "../components/Title/Title";
 import VStack from "../components/VStack/VStack";
 
-import postSupportImg from "../assets/img/postSupport.jpg";
+import postSupportImg from "../assets/img/postSupport.webp";
 
 import styles from "./Services.module.scss";
 

@@ -11,7 +11,7 @@ import Text from "../components/Text/Text";
 import Title from "../components/Title/Title";
 import VStack from "../components/VStack/VStack";
 
-import systemIntegrationImg from "../assets/img/systemIntegration.jpg";
+import systemIntegrationImg from "../assets/img/systemIntegration.webp";
 
 import styles from "./Services.module.scss";
 
@@ -27,7 +27,7 @@ const SystemIntegration: React.FC = () => {
     "Machine-to-Machine Communication (M2M)",
     "Variable Frequency Drive (VFD) Integration",
     "Energy Management Systems",
-    "Safety System Integration"
+    "Safety System Integration",
   ];
   return (
     <ContainerWrapper>

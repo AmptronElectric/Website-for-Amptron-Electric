@@ -1,8 +1,8 @@
 import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 
-import logoLight from "../../assets/logo-horizontal-light.png";
-import logoDark from "../../assets/logo-horizontal-dark.png";
+import logoLight from "../../assets/logo-horizontal-light.webp";
+import logoDark from "../../assets/logo-horizontal-dark.webp";
 
 import styles from "./Footer.module.scss";
 

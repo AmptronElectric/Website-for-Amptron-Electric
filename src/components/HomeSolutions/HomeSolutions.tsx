@@ -9,7 +9,7 @@ import Text from "../Text/Text";
 import Title from "../Title/Title";
 import VStack from "../VStack/VStack";
 
-import main1 from "../../assets/img/main1.jpg";
+import main1 from "../../assets/img/main1.webp";
 
 import styles from "./HomeSolutions.module.scss";
 

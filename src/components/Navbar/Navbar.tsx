@@ -7,8 +7,8 @@ import ThemeToggle from "../ThemeToggle/ThemeToggle";
 import Button from "../Button/Button";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 
-import logoLight from "../../assets/logo-horizontal-light.png";
-import logoDark from "../../assets/logo-horizontal-dark.png";
+import logoLight from "../../assets/logo-horizontal-light.webp";
+import logoDark from "../../assets/logo-horizontal-dark.webp";
 
 import styles from "./Navbar.module.scss";
 

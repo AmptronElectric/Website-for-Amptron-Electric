@@ -11,7 +11,7 @@ import Text from "../components/Text/Text";
 import Title from "../components/Title/Title";
 import VStack from "../components/VStack/VStack";
 
-import equipmentInstallationImg from "../assets/img/equipmentInstallation.jpg";
+import equipmentInstallationImg from "../assets/img/equipInstal.webp";
 
 import styles from "./Services.module.scss";
 

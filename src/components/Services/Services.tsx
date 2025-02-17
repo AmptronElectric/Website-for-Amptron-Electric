@@ -4,10 +4,10 @@ import ContainerWrapper from "../ContainerWrapper/ContainerWrapper";
 import Title from "../Title/Title";
 import Card from "../Card/Card";
 
-import equipmentInstallation from "../../assets/img/equipInstal.jpg";
+import equipmentInstallation from "../../assets/img/equipInstal.webp";
 import electricalRepair from "../../assets/img/electricalRepair.webp";
-import systemIntegration from "../../assets/img/systemIntegration.jpg";
-import postSupport from "../../assets/img/postSupport.jpg";
+import systemIntegration from "../../assets/img/systemIntegration.webp";
+import postSupport from "../../assets/img/postSupport.webp";
 import commissioning from "../../assets/img/commissioning.webp";
 
 import styles from "./Services.module.scss";

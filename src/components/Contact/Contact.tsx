@@ -7,8 +7,8 @@ import Popup from "../Popup/Popup";
 import Title from "../Title/Title";
 import Text from "../Text/Text";
 
-import lightImg from "../../assets/img/box-light.png";
-import darkImg from "../../assets/img/box-dark.png";
+import lightImg from "../../assets/img/box-light.webp";
+import darkImg from "../../assets/img/box-dark.webp";
 
 import styles from "./Contact.module.scss";
 
