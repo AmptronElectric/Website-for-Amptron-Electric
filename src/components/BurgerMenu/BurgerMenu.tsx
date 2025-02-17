@@ -23,7 +23,7 @@ const BurgerMenu: React.FC<BurgerMenuProps> = ({ links, extraContent }) => {
   return (
     <div className={styles.burgerMenu}>
       {/* Burger Button */}
-      <button onClick={toggleMenu} className={styles.burgerButton}>
+      <button onClick={toggleMenu} className={styles.burgerButton} aria-label="Menu Button">
         {isOpen ? <FiX size={32} /> : <FiMenu size={32} />}
       </button>
 
