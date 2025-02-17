@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Card from "../Card/Card";
 import ContainerWrapper from "../ContainerWrapper/ContainerWrapper";
 import Title from "../Title/Title";
-import Card from "../Card/Card";
 
 import equipmentInstallation from "../../assets/img/equipInstal.webp";
 import electricalRepair from "../../assets/img/electricalRepair.webp";
