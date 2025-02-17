@@ -8,7 +8,7 @@ import equipmentInstallation from "../../assets/img/equipInstal.jpg";
 import electronicRepair from "../../assets/img/electronicRepair.jpg";
 import systemIntegration from "../../assets/img/systemIntegration.jpg";
 import postSupport from "../../assets/img/postSupport.jpg";
-import commissioning from "../../assets/img/commissioning.jpg";
+import commissioning from "../../assets/img/commissioning.webp";
 
 import styles from "./Services.module.scss";
 

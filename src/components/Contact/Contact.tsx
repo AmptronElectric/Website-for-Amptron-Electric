@@ -137,12 +137,13 @@ const Contact: React.FC = () => {
             </div>
             <div className={styles.names}>
               <div className={styles.namesInput}>
-                <label className={styles.formLabel}>Email</label>
+                <label className={styles.formLabel}>Email<span className={styles.required}></span></label>
                 <br />
                 <input
                   className={styles.formControl}
                   type="email"
                   name="email"
+                  required
                 />
               </div>
               <div className={styles.namesInput}>

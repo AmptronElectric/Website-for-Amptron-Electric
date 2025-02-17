@@ -1,5 +1,5 @@
 import React from "react";
-import appointmentBannerIng from "../../assets/img/appointmentBanner.jpg";
+import appointmentBannerIng from "../../assets/img/appointmentBanner.webp";
 import styles from "./AppointmentBanner.module.scss";
 
 const AppointmentBanner: React.FC = () => {
