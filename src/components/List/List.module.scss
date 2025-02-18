@@ -22,3 +22,9 @@
   margin-right: 0.5rem; /* Space between icon and text */
   font-size: 1.2rem; /* Adjust icon size */
 }
+
+@media (max-width: 501px) {
+  .list {
+    padding-left: 15px;
+  }
+}
