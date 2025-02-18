@@ -89,7 +89,7 @@ const Contact: React.FC = () => {
                 className={styles.contactLink}
                 aria-label="Call us at +1 778-700-3710"
               >
-                Phone: +1 778-994-4027
+                Phone: +1 778-700-3710
               </a>
             </p>
             <p>
