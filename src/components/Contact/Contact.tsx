@@ -85,9 +85,9 @@ const Contact: React.FC = () => {
           <div className={styles.contactSection}>
             <p>
               <a
-                href="tel:+17789944027"
+                href="tel:+17787003710"
                 className={styles.contactLink}
-                aria-label="Call us at +1 778-994-4027"
+                aria-label="Call us at +1 778-700-3710"
               >
                 Phone: +1 778-994-4027
               </a>
