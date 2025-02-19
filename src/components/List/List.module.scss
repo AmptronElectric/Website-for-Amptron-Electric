@@ -7,6 +7,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  text-align: start;
 }
 
 .listItem {
@@ -27,6 +28,5 @@
 @media (max-width: 501px) {
   .list {
     padding-left: 15px;
-    text-align: start;
   }
 }
