@@ -61,5 +61,12 @@
 @media screen and (max-width: 500px) {
   .scheduleContainer a p {
     width: 100%;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .scheduleContainer a p {
+    font-size: 18px;
   }
 }

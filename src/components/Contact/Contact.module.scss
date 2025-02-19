@@ -117,3 +117,16 @@
     width: 100%;
   }
 }
+
+@media (max-width: 400px) {
+  .contactForm {
+    gap: 10px;
+  }
+  .names {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .namesInput {
+    width: 100%;
+  }
+}
