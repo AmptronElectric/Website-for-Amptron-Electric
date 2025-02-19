@@ -17,6 +17,9 @@
       align-items: center;
       text-align: center;
     }
+    @media (max-width: 500px) {
+      padding: 20px 10px;
+    }
   }
 
   .logoSection {
@@ -56,10 +59,6 @@
       text-decoration: none;
       position: relative;
       transition: color 0.3s ease;
-
-      // &:hover {
-      //   color: var(--btn-color); // Change color on hover
-      // }
 
       &::after {
         content: "";
