@@ -12,6 +12,7 @@
 @media (max-width: 1024px) {
   .wrapper {
     margin-top: 280px !important;
+    margin-bottom: -90px;
   }
 }
 
@@ -21,5 +22,8 @@
   }
   .homeSolutionsBtnContainer {
     flex-direction: column !important;
+  }
+  .industries {
+    width: 90%;
   }
 }
