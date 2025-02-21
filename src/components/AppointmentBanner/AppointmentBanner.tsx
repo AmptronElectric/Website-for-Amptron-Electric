@@ -7,7 +7,7 @@ const AppointmentBanner: React.FC = () => {
     <section>
       <div className={styles.scheduleContainer}>
         <a href="https://calendly.com/amptronelectricbc/30min" target="_blank">
-          <p>Schedule your 30 minutes Electrician Appointment now</p>
+          <p>Schedule Your 30-Minute Consultation</p>
         </a>
         <div className={styles.scheduleContainerImg}>
           <img
