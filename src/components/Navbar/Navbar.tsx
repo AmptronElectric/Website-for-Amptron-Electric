@@ -24,7 +24,16 @@ const Navbar: React.FC = () => {
   return (
     <header className={styles.header}>
       {/* Logo linked to Home */}
-      <NavLink to="/" className={styles.logo}>
+      <NavLink
+        to="/"
+        className={styles.logo}
+        onClick={(e) => {
+          if (window.location.pathname === "/") {
+            e.preventDefault(); // Prevent reload if already on home
+            window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to top smoothly
+          }
+        }}
+      >
         <img
           src={isDarkMode ? logoDark : logoLight}
           alt="Electrical Services in Burnaby, Coquitlam, Surrey, Richmond, Langley, Vancouver"
