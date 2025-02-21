@@ -46,6 +46,17 @@ const Footer: React.FC = () => {
       {/* Bottom Section: All Rights Reserved */}
       <div className={styles.bottom}>
         <p>&copy; {currentYear} Amptron Electric. All rights reserved.</p>
+        <p className={styles.credit}>
+          Website designed by{" "}
+          <a
+            href="https://mila-nevedomskaya-portfolio.glitch.me/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.creditLink}
+          >
+            <strong>Mila.webdev</strong>
+          </a>
+        </p>
       </div>
     </footer>
   );
